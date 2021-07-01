@@ -1,0 +1,5 @@
+(executable
+ (name main)
+ (link_flags -ccopt -static)
+ (modules main cmdline frontend logging)
+ (libraries str cil cil.all-features xmlm unix yojson))

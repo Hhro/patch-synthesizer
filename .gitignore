@@ -1,0 +1,6 @@
+_build
+synthesizer
+synthesizer-out
+coverage.xml
+*.gc*
+bug
